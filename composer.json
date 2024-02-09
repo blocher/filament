@@ -31,7 +31,7 @@
         "spatie/laravel-tags": "^4.2",
         "staudenmeir/belongs-to-through": "^2.5",
         "staudenmeir/eloquent-has-many-deep": "^1.7",
-        "symplify/monorepo-builder": "^10.0"
+        "symplify/monorepo-builder": "^10.0",
     },
     "autoload": {
         "files": [
@@ -89,6 +89,10 @@
         {
             "type": "path",
             "url": "packages/support"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/blocher/filament"
         }
     ]
 }
